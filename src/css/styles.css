@@ -166,3 +166,34 @@ img {
     transform: rotate(360deg);
   }
 }
+
+.hidden {
+  display: none;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.load-more-button {
+  width: 125px;
+  height: 40px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  background: #4e75ff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-style: none;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.load-more-button:hover,
+.load-more-button:focus {
+  background: #6c8cff;
+}
